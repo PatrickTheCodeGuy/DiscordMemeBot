@@ -65,6 +65,15 @@ client.on("message", message => {
     const returnMessage = Math.floor(Math.random() * 6);
     message.reply(messageArray[returnMessage]);
   }
+  if (
+    (message.author.username === "CaptainSplash" &&
+      message.content === "?Splash") ||
+    message.content === "?splash"
+  ) {
+    message.reply(
+      "YOu sIr dOn't Do ErRor hANdliNg https://cdn.discordapp.com/attachments/492490056859123723/529869129046425640/spongebob.jpg"
+    );
+  }
 });
 
 client.on("ready", () => {
