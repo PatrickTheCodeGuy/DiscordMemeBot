@@ -74,6 +74,11 @@ client.on("message", message => {
       "YOu sIr dOn't Do ErRor hANdliNg https://cdn.discordapp.com/attachments/492490056859123723/529869129046425640/spongebob.jpg"
     );
   }
+  if (message.content === "?theguy") {
+    message.reply(
+      "https://cdn.discordapp.com/attachments/298175239777419284/529869952287768577/unknown.png"
+    );
+  }
 });
 
 client.on("ready", () => {
